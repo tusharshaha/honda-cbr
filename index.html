@@ -15,7 +15,32 @@
 <body>
 <!-- this is header  -->
     <header class="w-100 header-bg">
-        <section class="container mb-5">
+      <nav class="navbar navbar-expand-lg py-4 ">
+        <div class="container">
+          <a class="navbar-brand" href="#"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="text-white fs-1"><i class="fas fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item me-3">
+                <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link text-white" href="#shop">Shop</a>
+              </li>
+              <li class="nav-item me-3">
+                <a class="nav-link text-white" href="#news">News</a>
+              </li>
+              <li class="nav-item me-5">
+                <a class="nav-link text-white" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <button class="btn btn-bg text-white px-4"> Login</button>
+          </div>
+        </div>
+      </nav>
+        <section class="container my-5">
             <div class="row row-cols-md-2 row-cols-1 g-4 d-flex pb-5">
                 <div class="col d-flex align-items-center">
                     <div class="text-white">
@@ -66,7 +91,7 @@
             <div class="row row-cols-md-3 row-cols-1 g-4">
                 <div class="col ">
                    <div class="">
-                        <img src="/images/bike-4.jpg" alt="" class="img-fluid ">
+                        <img src="/images/bike-4.jpg" alt="" class="img-fluid grayscale ">
                     </div>
                 </div>
                 <div class="col">
@@ -76,7 +101,7 @@
                 </div>
                 <div class="col">
                     <div class="">
-                        <img src="/images/bike-4.jpg" alt="" class="img-fluid">
+                        <img src="/images/bike-4.jpg" alt="" class="img-fluid grayscale">
                     </div>
                 </div>
             </div>
@@ -198,7 +223,7 @@
             <div class="col">
               <div class="">
                 <div class="accordion " id="accordionExample">
-                  <div class="accordion-item">
+                  <div class="accordion-item mb-2 border">
                     <h2 class="accordion-header" id="headingOne">
                       <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
                         What are the most important things I should know about riding a bike?
@@ -210,7 +235,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
+                  <div class="accordion-item mb-2 border">
                     <h2 class="accordion-header" id="headingTwo">
                       <button class="accordion-button collapsed fw-bold py-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                         How can I tell if my helmet is old and I need a new one?
@@ -222,7 +247,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
+                  <div class="accordion-item mb-2 border">
                     <h2 class="accordion-header" id="headingThree">
                       <button class="accordion-button collapsed fw-bold py-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                         My bike has been in storage is it safe to ride?
@@ -234,7 +259,7 @@
                       </div>
                     </div>
                   </div>
-                  <div class="accordion-item">
+                  <div class="accordion-item border">
                     <h2 class="accordion-header" id="headingFour">
                       <button class="accordion-button collapsed fw-bold py-4" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                         What rules should I follow when riding my bike?
